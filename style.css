@@ -1,0 +1,9 @@
+html{
+    background-color: rgba(128, 128, 128, 0.719);
+    text-align: center;
+}
+
+div{
+    border: white solid 20px;
+    margin: 30px;
+}

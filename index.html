@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
     <script src="/app.js" defer></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>W12C HTTP REQUEST TYPES</title>
 </head>
 <body>
+<!-- form allows users to type in their post -->
+    <input type="anyText" id="body">
+  
+    <!-- add a button that creates post -->
+    <button id="postButton">Create Post</button>
     
+    <!-- add a button that updates post -->
+    <button id="patchButton">Update Post</button>
+    
+    <!-- add a button that deletes posts -->
+    <button id="deleteButton">Delete post</button>
+    
+    <!-- add a div for the results to print -->
+    <div id="result"></div>
+
 </body>
 </html>
